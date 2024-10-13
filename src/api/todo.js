@@ -13,7 +13,4 @@ export async function getTodos() {
   }
 
   return response.json();
-  //   return axios
-  //     .get("https://jsonplaceholder.typicode.com/todos")
-  //     .then((res) => res.data);
 }
